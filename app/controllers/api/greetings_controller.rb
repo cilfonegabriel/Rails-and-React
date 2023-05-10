@@ -1,5 +1,4 @@
 module Api
-  # Controller for managing greetings
   class GreetingsController < ApplicationController
     def index
       @greetings = Greeting.all
